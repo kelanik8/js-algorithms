@@ -1,0 +1,15 @@
+{
+  "name": "collections-of-algorithms",
+  "version": "1.0.0",
+  "description": "Collection of algorithms in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "algorithms",
+    "javascript"
+  ],
+  "author": "Kelani Tolulope",
+  "license": "ISC"
+}
