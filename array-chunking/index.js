@@ -12,4 +12,4 @@ function ArrayChunking(array, size) {
   return chunked;
 }
 
-console.log(ArrayChunking([1, 2, 3, 4, 5, 6], 2));
+console.log(ArrayChunking([1, 2, 3, 4, 5, 6], 3));

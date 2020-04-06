@@ -11,17 +11,8 @@ const countUniqueValues = arr => {
   }
   return count;
 };
+console.log(countUniqueValues([1, 2, 3, 4, 5, 4]));
 
-const countUniqueValuesWithMultiplePointers = arr => {
-  const left = 0;
-  const right = arr.length - 1;
+const demoArr = [1, 2, 3, 4, 5, 6, 3, 2, 21];
 
-  const uniqueCount = 0;
-  while (left < right) {
-    if (arr[left] == arr[right]) {
-      uniqueCount++;
-    }
-  }
-};
-
-console.log(countUniqueValuesWithMultiplePointers([1, 2, 3, 4, 5, 4]));
+console.log(Math.floor(demoArr.length / 2));
